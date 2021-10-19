@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+header{
+    background-image: url(../images/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: lightcoral;
+    font-size: 20px;  
+    flex-wrap: wrap;
+}
+nav .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+nav .logo img{
+    height: 50px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+nav ul li{
+    margin: 0px 20px;
+}
+nav li a{
+    text-decoration: none;
+    color:lightcoral;
+    font-size: 25px;
+}
+nav li a:hover{
+    color:black;
+}
+header .container{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    
+}  
+header .container button{
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    background-color:maroon;
+    font-size: 1.25em;
+
+}
+header .container button:hover{
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+
+.middle{
+    display: flex;
+   
+    background-color: plum;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.nmiddle{
+    display: flex;
+    justify-content: space-around;
+    background-color: plum;
+    flex-wrap: wrap;
+   
+}
+.head{
+    justify-content: center;
+    text-align: center;
+    background-color: plum;
+    color:lightcoral;
+    font-size: 3em;
+}
+.middle .video{
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.middle .box{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px maroon;
+    height: 350px;
+    width: 400px;
+    justify-content: center;
+    margin: 40px 40px;
+    align-items: center;
+}
+.nmiddle .box{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px maroon;
+    height: 250px;
+    width: 330px;
+    justify-content: center;
+    margin: 60px 40px;
+    align-items: center;
+}
+.nmiddle .box .nleft{
+    
+    text-align: center;
+}
+.nmiddle .box .nleft img{
+    margin: 30px 30px;
+}
+.middle .box .mleft h3 img{
+    
+    height: 200px;
+}
+.content{
+    display: flex;
+    background-color:plum;
+    flex-wrap: wrap;
+}
+.content .row{
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.content .row .col-6 mt-5{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact{
+    display: flex;
+    padding:30px;
+    justify-content: center;
+    align-items: center;
+    background-color: plum;
+    flex-wrap: wrap;
+
+}
+.contact .left img{
+    width: 100%;
+    height: 50vh;
+}
+.contact .left{
+    flex-grow: 1;
+}
+.contact .right{
+    flex-grow: 2;
+}
+.contact .right .frn{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact .right input{
+    height: 40px;
+    width: 100%;
+    margin: 10px 10px;
+    
+}
+.contact .right textarea{
+    height: 100px;
+    width: 100%;
+    margin: 10px 10px;
+}
+.contact .right button{
+    width: 100%;
+    height: 40px;
+    background-color: khaki;
+    color: black;
+    margin-top: 10px;
+}
+footer{
+    background-color:rgb(54, 52, 51);
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+footer .left{
+    margin-top: 5px;
+    
+}
+footer .left img{
+    height: 50px;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+}
+footer ul a{
+    text-decoration: none;
+    color: yellow;
+    margin-left: 20px;
+
+}
